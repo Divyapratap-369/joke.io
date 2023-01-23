@@ -1,0 +1,120 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+#generate-joke {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#generate-joke:active {
+  transform: scale(0.95);
+}
+
+#joke {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#generate-joke {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#generate-joke:active {
+  transform: scale(0.95);
+}
+#joke {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #4caf50;
+  margin-top: 20px;
+  display: block;
+}
+
+.container a:hover {
+  color: #333;
+}
+/* Add a responsive design */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+  }
+}
+
+/* Add a hover effect on the joke element */
+#joke:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+/* Add font-awesome icon */
+.container i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+/* Add a transition effect on hover */
+#generate-joke:hover {
+  background-color: #3e8e41;
+  transition: background-color 0.3s ease-in;
+}
+
+/* Add a custom font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+h1, #joke {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add a gradient background */
+body {
+  background: linear-gradient(to bottom, #f1f1f1, #e5e5e5);
+}
