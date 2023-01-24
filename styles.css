@@ -118,3 +118,18 @@ h1, #joke {
 body {
   background: linear-gradient(to bottom, #f1f1f1, #e5e5e5);
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%; /* Increase the width of the game container on mobile */
+    font-size: 16px; /* Decrease the font size of text on mobile */
+  }
+
+  h1 {
+    font-size: 30px; /* Decrease the font size of the title on mobile */
+  }
+
+  button {
+    font-size: 16px; /* Decrease the font size of the buttons on mobile */
+    padding: 5px 10px; /* Decrease the padding of the buttons on mobile */
+  }
+}
